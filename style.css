@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+h1 {
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+form {
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.item-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.item-row input {
+  flex: 1;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+th, td {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+.status.paid {
+  color: green;
+  font-weight: bold;
+}
+
+.status.unpaid {
+  color: red;
+  font-weight: bold;
+}
+
+.action-btn {
+  margin-right: 8px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.action-btn.delete {
+  color: red;
+}
+.invoice-box {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.invoice-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+tfoot td {
+  background-color: #f9f9f9;
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 30px;
+  text-align: right;
+}
+

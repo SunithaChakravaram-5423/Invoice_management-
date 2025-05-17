@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>All Invoices</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>All Invoices</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Invoice No</th>
+          <th>Client Name</th>
+          <th>Issue Date</th>
+          <th>Status</th>
+          <th>Total Amount</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Sample static data -->
+        <tr>
+          <td>INV-001</td>
+          <td>Sunitha Chakravaram</td>
+          <td>2025-05-15</td>
+          <td><span class="status unpaid">Unpaid</span></td>
+          <td>₹ 3,500.00</td>
+          <td>
+            <a href="invoice.html" class="action-btn">🔍 View</a>
+            <a href="#" class="action-btn">✏️ Edit</a>
+            <a href="#" class="action-btn delete">🗑️ Delete</a>
+          </td>
+        </tr>
+        <tr>
+          <td>INV-002</td>
+          <td>ABC Corp</td>
+          <td>2025-05-10</td>
+          <td><span class="status paid">Paid</span></td>
+          <td>₹ 5,000.00</td>
+          <td>
+            <a href="invoice.html" class="action-btn">🔍 View</a>
+            <a href="#" class="action-btn">✏️ Edit</a>
+            <a href="#" class="action-btn delete">🗑️ Delete</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

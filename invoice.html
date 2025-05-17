@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Invoice Preview</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="invoice-box">
+      <h1>Invoice</h1>
+      
+      <div class="invoice-header">
+        <div>
+          <strong>Invoice No:</strong> INV-001<br>
+          <strong>Issue Date:</strong> 2025-05-15<br>
+          <strong>Due Date:</strong> 2025-05-22
+        </div>
+        <div>
+          <strong>Billed To:</strong><br>
+          Sunitha Chakravaram<br>
+          sunitha@example.com
+        </div>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Description</th>
+            <th>Qty</th>
+            <th>Unit Price</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Website Design</td>
+            <td>1</td>
+            <td>₹ 3,000</td>
+            <td>₹ 3,000</td>
+          </tr>
+          <tr>
+            <td>Domain + Hosting</td>
+            <td>1</td>
+            <td>₹ 500</td>
+            <td>₹ 500</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3" style="text-align: right;"><strong>Grand Total:</strong></td>
+            <td><strong>₹ 3,500</strong></td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <div class="footer">
+        <p>Status: <span class="status unpaid">Unpaid</span></p>
+        <button onclick="window.print()" class="btn">🖨️ Print Invoice</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
